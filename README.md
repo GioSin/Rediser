@@ -1,7 +1,7 @@
 Rediser
 =======
 
-Creates and manages multiple Redis instances.
+Creates and manages multiple Redis instances. Stores instance configuration in /var/redis/conf/instances.
 
 Run create.sh script providing a unique instance name and port as separate params.
 
