@@ -48,6 +48,4 @@ port $PORT" > conf
 
 echo -e "\nDone creating new Redis instance."
 
-echo -e "\nPlease add new instance name and port to 'Redis Ports' spreadsheet in HitGrab's Google Drive (https://drive.google.com/a/hitgrab.com/#shared-with-me) to avoid conflicts.\n"
-
 exit 0
