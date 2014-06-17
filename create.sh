@@ -25,7 +25,7 @@ fi
 
 echo -e "\nCreating new Redis instance for $INSTANCE:\n"
 
-echo -e "\tAdding instance name to instances list."
+echo -e "\tAdding instance name to instances list.\n"
 
 echo $INSTANCE >> instances.txt
 
