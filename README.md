@@ -5,18 +5,18 @@ Creates and manages multiple Redis instances. Stores instance configuration in /
 
 Run create.sh script providing a unique instance name and port as separate params.
 
-Example:
+  Example:
 
-./create.sh kickpuncher 1234
+    ./create.sh kickpuncher 1234
 
 Run launch.sh script providing instance name (or leave blank for all created instances) to launch instance.
 
-Example:
+  Example:
 
-./launch.sh kickpuncher
+    ./launch.sh kickpuncher
 
-Launching Redis instances:
+    Launching Redis instances:
 
-  kickpuncher
+      kickpuncher
 
-Done launching Redis instances.
+    Done launching Redis instances.
