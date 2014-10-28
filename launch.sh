@@ -5,6 +5,7 @@ if [ ! -f /var/redis/conf/instances/instances.txt ]; then
 	exit 1
 fi
 
+# Load existing instances
 INSTANCES="`cat /var/redis/conf/instances/instances.txt`"
 
 if [ -z "$INSTANCES" ]; then
@@ -12,6 +13,7 @@ if [ -z "$INSTANCES" ]; then
 	exit 1
 fi
 
+# If instance was supplied, replace loaded instances
 if [ -n "$1" ]; then
 	INSTANCES=$1
 fi
