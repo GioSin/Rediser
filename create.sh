@@ -4,7 +4,7 @@ INSTANCE=$1
 PORT=$2
 
 if [ -z "$INSTANCE" -o -z "$PORT" ]; then
-  echo "Please provide unique instance name and port."
+	echo "Please provide unique instance name and port."
 	exit 1
 fi
 
