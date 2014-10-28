@@ -1,7 +1,7 @@
 #!/bin/bash
 
 if [ ! -f /var/redis/conf/instances/instances.txt ]; then
-  echo "No instances found. Please run create.sh."
+	echo "No instances found. Please run create.sh."
 	exit 1
 fi
 
