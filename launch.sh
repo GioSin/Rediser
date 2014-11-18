@@ -23,7 +23,7 @@ echo -e "\nLaunching Redis instances:\n"
 for INSTANCE in $INSTANCES
 do	
 	echo -e "\t$INSTANCE"
-	/usr/local/bin/redis-server /var/redis/conf/instances/$INSTANCE/conf
+	redis-server /var/redis/conf/instances/$INSTANCE/conf
 done
 
 # A little housekeeping...
