@@ -46,6 +46,6 @@ dir /var/redis/conf/instances/$INSTANCE/
 port $PORT" > conf
 ########## DO NOT TOUCH LINES ABOVE ##########
 
-echo -e "\nDone creating new Redis instance."
+echo -e "\nDone creating new Redis instance.\n"
 
 exit 0
