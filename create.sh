@@ -4,7 +4,7 @@ INSTANCE=$1
 PORT=$2
 
 if [ -z "$INSTANCE" -o -z "$PORT" ]; then
-	echo "Please provide unique instance name and port."
+	echo -e "\nPlease provide unique instance name and port.\n"
 	exit 1
 fi
 
@@ -19,7 +19,7 @@ cd /var/redis/conf/instances
 
 # Ensure the new instance name directory does not exist to avoid duplicates in the instances list
 if [ -d $INSTANCE ]; then
-	echo "Instance already exists. Please provide unique instance name and port."
+	echo -e "\nInstance already exists. Please provide unique instance name and port.\n"
 	exit 1
 fi
 
