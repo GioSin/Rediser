@@ -46,6 +46,8 @@ dir /var/redis/conf/instances/$INSTANCE/
 port $PORT" > conf
 ########## DO NOT TOUCH LINES ABOVE ##########
 
+echo "alias redislog='less /var/redis/conf/instances/$INSTANCE/log'" >> /root/.bash_profile
+
 echo -e "\nDone creating new Redis instance.\n"
 
 exit 0
