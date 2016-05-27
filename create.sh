@@ -1,12 +1,9 @@
 #!/bin/bash
 
+[ -z "$1" -o -z "$2" ] && echo -e "\nUsage: create.sh \e[4minstance_name\e[0m \e[4mport_number\e[0m\n" && exit 1
+
 INSTANCE=$1
 PORT=$2
-
-if [ -z "$INSTANCE" -o -z "$PORT" ]; then
-	echo -e "\nPlease provide unique instance name and port.\n"
-	exit 1
-fi
 
 # Ensure instances directory exists
 mkdir -p /var/redis/conf/instances
